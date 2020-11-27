@@ -1,0 +1,36 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.home {
+  display: auto;
+  flex-wrap: wrap;
+}
+
+form{
+  width: 450px;
+  margin: auto;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  
+}
+
+p{
+  text-align: center;
+  padding: 10px;
+}
+
+h5{
+  margin: 1;
+  margin-bottom: 20px;
+  min-height: 50px;
+  max-height: 100px;
+  max-width: 50%;
+}
+
+@media (max-width:480px){
+  form{
+    width: 100%;
+  }
+}
